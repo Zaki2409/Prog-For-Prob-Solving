@@ -2,6 +2,10 @@
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
         "stdio.h": "c",
-        "ACESSEDINGORDER.C": "cpp"
+        "ACESSEDINGORDER.C": "cpp",
+        "ACESSEDINGORDER copy.C": "cpp",
+        "descendindorder.C": "cpp",
+        "descendindorder copy.C": "cpp",
+        "MinMaxAverage.C": "cpp"
     }
 }
