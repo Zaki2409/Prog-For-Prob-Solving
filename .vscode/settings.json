@@ -6,6 +6,8 @@
         "ACESSEDINGORDER copy.C": "cpp",
         "descendindorder.C": "cpp",
         "descendindorder copy.C": "cpp",
-        "MinMaxAverage.C": "cpp"
+        "MinMaxAverage.C": "cpp",
+        "random": "c",
+        "limits": "c"
     }
 }

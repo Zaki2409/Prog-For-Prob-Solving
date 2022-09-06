@@ -18,9 +18,9 @@ int main()
       printf("enter number %d \n", i + 1);
       scanf("%d", &user_numbers[i]);
     }
-    for (j = 0; j < user_choice-1 ; j++)
+    for (j = 0; j < user_choice - 1; j++)
     {
-      for (k = 0; k < user_choice-1 ; k++)
+      for (k = 0; k < user_choice - 1; k++)
       {
         if (user_numbers[k] > user_numbers[k + 1])
         {
