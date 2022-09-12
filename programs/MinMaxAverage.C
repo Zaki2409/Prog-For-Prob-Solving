@@ -37,3 +37,56 @@ int main()
 
   return 0;
 }
+
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void myFunction()
+{
+    int n, i, *ptr, sum = 0 , min=999999 , max=0;
+    printf("Enter number of indices: ");
+    scanf("%d", &n);
+    ptr = (int *)malloc(n * sizeof(int));
+    if (ptr == NULL)
+    {
+        printf(" unable to allocate memory");
+        exit(0);
+    }
+    else
+    {
+        printf("Enter elements of array:\n ");
+        for (i = 0; i < n; ++i)
+        {
+            printf("enter number %d : ", i);
+            scanf("%d", ptr + i);
+            sum += *(ptr + i);
+        }
+        printf("Sum=%d\n", sum);
+        free(ptr);
+        
+        for (i = 0; i <n; i++)
+        {
+            if (ptr + i < min)
+                min = *(ptr + i);
+            if (ptr + i > max)
+                max = *(ptr + i);
+        }
+    printf(" min=%d\n" , min);
+    printf("max=%d\n" , max);
+
+    }
+}
+
+
+
+    int main()
+    {
+        myFunction();
+        
+        return 0;
+    }
