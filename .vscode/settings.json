@@ -8,6 +8,11 @@
         "descendindorder copy.C": "cpp",
         "MinMaxAverage.C": "cpp",
         "random": "c",
-        "limits": "c"
+        "limits": "c",
+        "ROMANTOARABIC.C": "cpp",
+        "sstream": "c",
+        "SUMTHRUPOINTERS.C": "cpp",
+        "malloc.h": "c",
+        "string.h": "c"
     }
 }

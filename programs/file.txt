@@ -1,0 +1,1 @@
+hello this is zaki learning concept of file input and output with C. today im going to have briyani 

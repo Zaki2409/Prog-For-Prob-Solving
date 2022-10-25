@@ -9,6 +9,7 @@ int main()
     scanf("%c", &oper);
     printf(" ertner two operands ");
     scanf("%1lf %1lf", &x, &y);
+    
 
     switch (oper)
     {
